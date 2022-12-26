@@ -120,6 +120,10 @@ export class FilterBar extends React.Component<FilterBarProps, FilterBarState> {
 						option: (styles, { isFocused, isSelected }) => ({
 							...styles,
 							backgroundColor: isSelected ? 'var(--highlight-primary)' : isFocused ? 'var(--highlight-secondary)' : undefined
+						}),
+						input: (base) => ({
+							...base,
+							color: 'var(--text-primary)'
 						})
 					}}
 				/>
@@ -138,6 +142,10 @@ export class FilterBar extends React.Component<FilterBarProps, FilterBarState> {
 						option: (styles, { isFocused, isSelected }) => ({
 							...styles,
 							backgroundColor: isSelected ? 'var(--highlight-primary)' : isFocused ? 'var(--highlight-secondary)' : undefined
+						}),
+						input: (base) => ({
+							...base,
+							color: 'var(--text-primary)'
 						})
 					}}
 				/>
@@ -163,6 +171,10 @@ export class FilterBar extends React.Component<FilterBarProps, FilterBarState> {
 						option: (styles, { isFocused, isSelected }) => ({
 							...styles,
 							backgroundColor: isSelected ? 'var(--highlight-primary)' : isFocused ? 'var(--highlight-secondary)' : undefined
+						}),
+						input: (base) => ({
+							...base,
+							color: 'var(--text-primary)'
 						})
 					}}
 				/>
